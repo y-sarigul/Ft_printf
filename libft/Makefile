@@ -46,7 +46,16 @@ FILES	:= ft_isalnum.c \
 		ft_putnbr_fd.c \
 		ft_itoa.c \
 		ft_strmapi.c \
-		ft_striteri.c
+		ft_striteri.c \
+		ft_lstnew.c \
+		ft_lstadd_front.c \
+		ft_lstsize.c \
+		ft_lstlast.c \
+		ft_lstadd_back.c \
+		ft_lstdelone.c \
+		ft_lstclear.c \
+		ft_lstiter.c \
+		ft_lstmap.c
 
 OBJ		:= $(FILES:%.c=$(OBJDIR)/%.o)
 
